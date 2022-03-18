@@ -54,15 +54,15 @@ class Solution:
         return trie.find_longest_prefix()
 
 
-strs = ["flower","flow","flight", "fly", "fling", "flown"]
+strs = ["flower", "flow", "flight", "fly", "fling", "flown"]
 res = Solution().longestCommonPrefix(strs)
 print(res)
 
-strs = ["dog","racecar","car"]
+strs = ["dog", "racecar", "car"]
 res = Solution().longestCommonPrefix(strs)
 print(res)
 
-strs = ["","b"]
+strs = ["", "b"]
 res = Solution().longestCommonPrefix(strs)
 print(res)
 
