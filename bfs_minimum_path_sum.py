@@ -7,6 +7,7 @@ from typing import *
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         visited = set()
+
         def bfs(x, y, grid, visited):
             queue = deque([(x, y)])
 
